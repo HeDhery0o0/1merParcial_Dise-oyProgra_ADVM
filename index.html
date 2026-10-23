@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de acceso</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="caja">
+        <h1>Formulario de acceso</h1>
+
+        <form id="formulario">
+            <label>Usuario:</label>
+            <input type="text" id="usuario" placeholder="Escribe tu usuario">
+
+            <label>Contraseña:</label>
+            <input type="password" id="contrasena" placeholder="Escribe tu contraseña">
+
+            <button type="submit">Guardar datos</button>
+        </form>
+
+        <button type="button" id="mostrar">Mostrar datos guardados</button>
+        <button type="button" id="borrar">Borrar datos guardados</button>
+
+        <div id="resultado">
+            <h2>Resultado</h2>
+            <p id="mensaje">Aquí aparecerán los resultados.</p>
+            <div id="datos"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
